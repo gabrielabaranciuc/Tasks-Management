@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    background-color: #fff;
+    margin: 0 auto;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.main {
+    width: 90vw;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 765px) {
+    .main {
+        max-width: 600px;
+    }
+}
+
+.header-logo {
+    background-color: rgb(244, 200, 218);
+    text-align: center;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+            "Lucida Sans", Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    font-size: 1em;
+    margin-bottom: 1.5em;
+}
+
+@media screen and (min-width: 600px) {
+    .header-logo {
+        font-size: 1.5em;
+    }
+}
+
+.header {
+    margin: 0 auto;
+    padding: 0.2em;
+}
+
+.input-group {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    align-items: stretch;
+    margin-bottom: 5px;
+}
+
+.input-group-text, .btn-task  {
+    flex-grow: 0;
+    padding: 10px 8px;
+}
+
+.input-group-text {
+    background-color: rgb(224, 219, 219);
+    border-radius: 5px 0 0 5px;
+}
+
+.btn-task {
+    background-color: rgb(23, 45, 246);
+   
+}
+
+.form {
+    flex-grow: 2;
+    max-width: 550px;
+    font-size: 16px;
+    padding: 10px 8px;
+}
+
+.btn {
+    font-size: 16px;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    transition: 0.5s;
+    opacity: 1;
+    border: none;
+}
+
+.btn:hover {
+   opacity: 0.8;
+}
+
+#message{
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 1.5em;
+}
+
+#btnClear {
+    width: 100%;
+    background-color: rgb(241, 41, 81);
+    padding: 10px 8px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+#tasks {
+    cursor: pointer;
+}
+
+.list-group-item {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
